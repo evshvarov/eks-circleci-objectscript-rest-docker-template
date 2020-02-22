@@ -18,7 +18,7 @@ nodeGroups:
   - name: ng-1
     amiFamily: AmazonLinux2
     ami: ami-059c6874350e63ca9  # AMI is specific for a region
-    instanceType: t2.medium
+    instanceType: t2.small
     desiredCapacity: 1
     minSize: 1
     maxSize: 1
